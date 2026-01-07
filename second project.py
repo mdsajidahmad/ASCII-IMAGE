@@ -57,3 +57,4 @@ def image_to_ascii(path):
 image_path = "my.jpg.jpeg"     
 image_to_ascii(image_path)
 
+
