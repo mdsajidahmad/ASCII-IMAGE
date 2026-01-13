@@ -2,7 +2,7 @@
 from PIL import Image
 # ----- ASCII CHARACTERS -----
 ASCII_CHARS = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "."]
-img = Image.open(r"D:\sajid\my.jpg.jpeg")
+img = Image.open(r"D:\sajid\hema malini.jpeg")
 def resize_image(image, new_width=80):
     width, height = image.size
     ratio = height / width
@@ -54,7 +54,8 @@ def image_to_ascii(path):
             print(line)              # print screen par
             f.write(line +"\n")     # file me save
     print("\n✔ ASCII image saved as:", output_file)
-image_path = "my.jpg.jpeg"     
+image_path = "hema malini.jpeg"     
 image_to_ascii(image_path)
+
 
 
