@@ -1,4 +1,4 @@
-# ASCII-IMAGE
+# ASCII-IMAGE of HEMA MALINI
 
 ## 🎨 Project Overview: The ASCII Vision
 
